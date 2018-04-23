@@ -50,6 +50,6 @@ public class Crime {
     }
 
     public String getSimpleDate() {
-        return mSimpleDate;
+        return mDate.toString();
     }
 }
