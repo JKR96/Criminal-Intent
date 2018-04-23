@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CriminalIntent</string>
+    <string name="crime_title_hint">Wprowadź tytuł sprawy</string>
+    <string name="crime_title_label">Tytuł</string>
+    <string name="crime_details_label">Opis</string>
+    <string name="crime_solved_label">Rozwiązana</string>
+    <string name="crime_list_name">Tytuł sprawy</string>
+    <string name="crime_list_date">Data zdarzenia</string>
+    <string name="description">Ślepoki</string>
+    <string name="first">Pierwszy</string>
+    <string name="last">Ostatni</string>
+</resources>
