@@ -7,6 +7,8 @@ import java.util.Locale;
 import java.util.UUID;
 
 public class Crime {
+
+
     public UUID getId() {
         return mId;
     }
@@ -19,10 +21,14 @@ public class Crime {
     public boolean isChanged = false;
 
     public Crime() {
-        mId = UUID.randomUUID();
-        mDate = new Date();
+        this(UUID.randomUUID());
         SimpleDateFormat simpleDate = new SimpleDateFormat("EEEEEE, dd MMMM yyyy", Locale.ENGLISH);
         mSimpleDate = simpleDate.format(mDate);
+    }
+
+    public Crime(UUID id) {
+        mId = id;
+        mDate = new Date();
     }
 
     public String getTitle() {
