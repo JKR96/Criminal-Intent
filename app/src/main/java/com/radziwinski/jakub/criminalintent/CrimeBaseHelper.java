@@ -8,7 +8,7 @@ import com.radziwinski.jakub.criminalintent.CrimeDbSchema.CrimeTable;
 
 public class CrimeBaseHelper extends SQLiteOpenHelper {
     private static final int VERSION = 1;
-    public static final String DATABASE_NAME = "crimebase.db";
+    public static final String DATABASE_NAME = "crimeBase.db";
 
     public CrimeBaseHelper(Context context) {
         super(context, DATABASE_NAME, null, VERSION);
